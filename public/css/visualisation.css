@@ -1,0 +1,26 @@
+fieldset {
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.card {
+	margin-top: 55px;
+}
+
+img {
+	margin-top: 50px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#buy {
+	text-align: center;
+}

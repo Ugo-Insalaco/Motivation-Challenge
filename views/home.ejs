@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Formations WEB</title>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+
+<body onload="load_page('visualisation')">
+
+<nav class="navbar bg-dark navbar-expand-lg navbar-dark static-top">
+	<div class="container">
+		<a class="navbar-brand" href="#">TelephonesPasCher.net</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li id="phones" class="nav-item active">
+					<a class="nav-link" href="#" onclick="load_page('visualisation')">Telephones à vendre
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li id="login_admin" class="nav-item">
+					<a class="nav-link" href="#" onclick="load_page('login_admin')">Admin</a>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+</nav>
+ 
+<div id="content">
+</div>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+	function load_page(page_name){
+		$(".active").removeClass("active")
+		$("#" + page_name).addClass("active");
+
+		$("#content").load( "/" + page_name);
+	};
+</script>
+
+
+</body>
+</html>
