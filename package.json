@@ -1,21 +1,22 @@
 {
-  "name": "motivation",
+  "name": "Motivation",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ugo-Insalaco/Motivation.git"
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Ugo Insalaco",
+  "license": "",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ugo-Insalaco/Motivation/issues"
-  },
-  "homepage": "https://github.com/Ugo-Insalaco/Motivation#readme"
+  "engines": {
+    "node": "12.13.0"
+  }
 }
