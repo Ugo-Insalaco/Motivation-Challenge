@@ -1,16 +1,20 @@
 {
-  "name": "formations_web",
+  "name": "package.json",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "",
+  "author": "Ugo Insalaco",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "description": "",
+  "engines": {
+    "node": "12.13.0"
   }
 }

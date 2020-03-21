@@ -18,28 +18,9 @@ app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
-	res.render("home")
+	res.render("index")
 });
 
-app.get('/visualisation', function(req, res){
-	res.render("visualisation")
-});
-
-app.get('/login_admin', function(req, res){
-	res.render("login_admin")
-});
-
-app.get('/admin_page', function(req, res){
-	res.render("admin_page")
-});
-
-app.post('/login', function(req,res){
-	if (req.body.username == "Eclair" && req.body.password == "password"){
-		res.json({success : true});
-	} else {
-		res.json({success : false});
-	};
-});
 
 
 app.listen(port);
