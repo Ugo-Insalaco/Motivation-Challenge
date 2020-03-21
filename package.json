@@ -1,21 +1,21 @@
 {
-  "name": "package.json",
+  "name": "motivation",
   "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
-  },
-  "author": "Ugo Insalaco",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.4"
-  },
-  "devDependencies": {},
   "description": "",
-  "engines": {
-    "node": "12.13.0"
-  }
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ugo-Insalaco/Motivation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ugo-Insalaco/Motivation/issues"
+  },
+  "homepage": "https://github.com/Ugo-Insalaco/Motivation#readme"
 }
-g
