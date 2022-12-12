@@ -14,7 +14,7 @@
   "license": "",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   },
   "engines": {
     "node": "12.13.0"
